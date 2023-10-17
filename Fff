@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularz Rejestracji</title>
+</head>
+<body>
+    <h1>Rejestracja</h1>
+    <form action="zapisz_do_pliku.php" method="post">
+        <label for="nazwa_uzytkownika">Nazwa użytkownika:</label>
+        <input type="text" name="nazwa_uzytkownika" id="nazwa_uzytkownika" required><br><br>
+        <label for="haslo">Hasło:</label>
+        <input type="password" name="haslo" id="haslo" required><br><br>
+        <input type="submit" value="Zarejestruj">
+    </form>
+</body>
+</html>
